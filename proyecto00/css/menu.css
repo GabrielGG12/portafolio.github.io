@@ -1,0 +1,32 @@
+#menu{
+    display: none;
+}
+@media only screen and (max-width:980px){
+    #menu{
+        display: block;
+        float: right;
+        font-size: 30px;
+        color: white;
+        margin: 10px;
+    }
+    .container{
+        width: 90%;
+    }
+    .botonera{
+        position: relative;
+        float: none;
+        left: -100%;
+        transition: 0.5s;
+    }
+    .botonera-open{
+        left: 0%;
+        transition: 0.5s;
+    }
+    .botonera ul{
+        top: 70px;
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        background: black;
+    }
+}

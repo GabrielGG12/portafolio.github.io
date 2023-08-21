@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Mi pagina web</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Estilos para la imagen del logo */
+    .logo-img {
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto; /* Para centrar horizontalmente */
+      width: 250px;
+      height: 250px;
+    }
+
+    /* Estilos para el título */
+    .logo-title {
+      text-align: center;
+      color: white;
+      margin-top: 20px;
+    }
+    .border-bottom {
+      width: 300px; /* Establecer el ancho deseado */
+    }
+
+    /* Estilos para la línea gruesa */
+    .line-thick {
+      border: none;
+      height: 5px;
+      background-color: rgb(255, 255, 255);
+    }
+    .line-black {
+    border: none;
+    height: 4px;
+    background-color: black;
+    width: 55%; /* Puedes ajustar el ancho de la línea aquí */
+  }
+  .imagen-formulario {
+    width: 100%; /* Usamos el 100% del ancho del contenedor */
+    height: auto; /* Mantener la proporción original */
+  }
+ 
+ 
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark fixed-top mb-5">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="imagenes/logo.png" alt="" width="50px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobremi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portafolio">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonio">Testimonio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactanos">Contactanos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="mt-5">
+    <div class="overlay">
+      <div class="container">
+        <div class="d-flex flex-column align-items-center">
+          <img src="imagenes/Aaron.jpeg" alt="" class="mt-5 logo-img">
+          <h1 class="logo-title text-white">Gabriel Aaron Luna Vasquez</h1>
+          <p class="text-white">Soy un Estudiante de Idat que actualmente está estudiando la carrera de Desarrollo de Sistemas De Información</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="mt-2">
+    <div class="container">
+      <div class="col-lg-6">
+        <h1 class="border-bottom" id="sobremi">SOBRE MI</h1>
+        <p>Mi nombre es Gabriel Aaron Luna Vasquez, tengo 19 años y vivo en El Rimac,
+          Estudio en idat, ejerciendo la carrera de Desarrollo de Sistemas De Información,
+          actualmente me dedico a crear sitios webs y espero seguir ganando experiencia.
+          <a class="btn" href="CV+-+Gabriel+Aaron+Luna+Vásquez.pdf" target="_blank" download="Curriculum">Descargar Curriculum</a>
+        </p>
+      </div>
+    </div>
+  </main>
+  <article>
+    <article class="my-4 py-4">
+      <div class="text-black fw-bold">
+        <h2 class="text-center" id="servicios">Servicios</h2>
+        <!-- Línea gruesa -->
+        <hr class="my-4 line-thick">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="col-lg-9">
+                <i class="bi bi-display d-flex justify-content-center align-items-center" style="font-size: 2rem;"></i>
+                <p class="text-center">Diseño webs</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, totam. Natus perferendis officiis.</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="col-lg-9">
+                <i class="bi bi-shield-check d-flex justify-content-center align-items-center" style="font-size: 2rem;"></i>
+                <p class="text-center">Seguridad</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, totam. Natus perferendis officiis.</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="col-lg-9">
+                <i class="bi bi-bug-fill d-flex justify-content-center align-items-center" style="font-size: 2rem;"></i>
+                <p class="text-center">Informacion</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, totam. Natus perferendis officiis.</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="col-lg-9">
+                <i class="bi bi-back d-flex justify-content-center align-items-center" style="font-size: 2rem;"></i>
+                <p class="text-center">Recuperación</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, totam. Natus perferendis officiis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </article>
+  <section>
+    <div class="container">
+      <h3 class="text-center fw-bold"id="portafolio">PORTAFOLIO</h3>
+      <div class="row">
+        <div class="col-md-3 justify-content-start">
+          <a href="pagina peru/index.html"target="_blank" class="mt-5 mx-5">
+            <img src="imagenes/peru.png" alt="" width="200px" class="border border-info">
+          </a>
+        </div>
+        <div class="col-md-3 justify-content-start">
+          <a href="proyecto00/index.html" target="_blank" class="mt-5 mx-5">
+            <img src="imagenes/spa.png" alt="" width="200px" class="border border-info">
+          </a>
+        </div>
+        <div class="col-md-3 justify-content-start">
+          <a href="HTML5 and CSS3 - Sesion 03(Porcentajes,Heigth 100VH y Flexbox.)/index.html"target="_blank" class="mt-5 mx-5">
+            <img src="imagenes/pets.png" alt="" width="200px" class="border border-info">
+          </a>
+        </div>
+        <div class="col-md-3 justify-content-start">
+          <a href="pagina libros/index.html"target="_blank" class="mt-5 mx-5">
+            <img src="imagenes/libros.png" alt="" width="200px" class="border border-info">
+          </a>
+        </div>
+        <div class="col-md-3 justify-content-start mt-5">
+          <a href="HTML5 and CSS3 - Sesion 05Introducción a  Boostrap..)/index.html"target="_blank" class="mt-5 mx-5">
+            <img src="imagenes/gunbound.png" alt="" width="200px" class="border border-info">
+          </a>
+        </div>
+        <div class="col-md-3 justify-content-start mt-5">
+          <a href="Boostrap/index1.html"target="_blank" class="mt-5 mx-5">
+            <img src="imagenes/tecnologia.png" alt="" width="200px" class="border border-info">
+          </a>
+        </div>
+        <div class="col-md-3 justify-content-start mt-5">
+          <a href="HTML5 and CSS3 - Sesion 02(Hipervinculos.)/Ejercicio03.html"target="_blank" class="mt-5 mx-5">
+            <img src="imagenes/geografia.png" alt="" width="200px" class="border border-info">
+          </a>
+        </div>
+        <div class="col-md-3 justify-content-start mt-5">
+          <a href="Proyecto_Final/inicio.html"target="_blank" class="mt-5 mx-5">
+            <img src="imagenes/aurili.png" alt="" width="200px" class="border border-info">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <aside>
+    <div class="bg-dark py-5">
+      <div class="container">
+        <h5 class="text-center text-warning"id="testimonio">TESTIMONIO</h5>
+        <div class="row">
+          <div class="d-flex flex-column align-items-center col-md-5 col-lg-3 my-custom-margin">
+            <img src="imagenes/persona1.png" alt="" class="mt-5 logo-img" style="border: 5px solid rgb(251, 189, 20);">
+            <h1 class="logo-title">Nicko Luna</h1>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi qui omnis quam accusantium tenetur sapiente quidem culpa. Ut dolore libero at nostrum cumque nobis nemo obcaecati totam, incidunt modi eos.</p>
+          </div>
+          <div class="d-flex flex-column align-items-center col-md-5 col-lg-6 my-custom-margin">
+            <img src="imagenes/persona2.jpg" alt="" class="mt-5 logo-img" style="border: 5px solid rgb(251, 189, 20);">
+            <h1 class="logo-title">Jimena Olivos</h1>
+            <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, deleniti. Praesentium ipsum modi cupiditate assumenda accusamus. Laborum, officiis, consectetur nihil non neque ratione numquam explicabo assumenda magni minus, enim repudiandae?explicabo assumenda magni minus, enim repudiandae? assumenda magni minus, enim repudiandae?explicabo assumenda magni minus, enim repudianda assumenda magni minus, enim repudianda?</p>
+
+          </div>
+          <div class="d-flex flex-column align-items-center col-md-5 col-lg-3 my-custom-margin">
+            <img src="imagenes/persona3.jpg" alt="" class="mt-5 logo-img" style="border: 5px solid rgb(251, 189, 20);">
+            <h1 class="logo-title">Luna Olivos</h1>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi qui omnis quam accusantium tenetur sapiente quidem culpa. Ut dolore libero at nostrum cumque nobis nemo obcaecati totam, incidunt modi eos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <section>
+    <div class="contactos my-5">
+        <h2 class="text-center" id="contactanos">CONTACTANOS</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="text-center">Informes</h3>
+                            <p class="text-center">Consulta para mas informacion</p>
+                            <form action="">
+                                <p>Nombre Completo</p>
+                                <input type="text" class="form-control" placeholder="Ingresa su Nombre Completo" class="border border-info">
+                                <br>
+                                <input type='number' class='form-control' placeholder='Ingresa tu Celular' class="border border-info">
+                                <br>
+                                <p>Correo Electronico</p>
+                                <input type='email' class='form-control' placeholder='Ingresa tu Correo'class="border border-info">
+                                <br>
+                                <p>Telefono</p>
+                                <input type='email' class='form-control' placeholder='Ingresa tu Telefono'class="border border-info">
+                                <br>
+                                <p>Comentarios</p>
+                                <textarea class="form-control"></textarea>
+                                <br>
+                                <button class="form-control bg-dark text-white">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+  <div class="container-fluid bg-primary text-white">
+    <div class="row">
+        <h3 class="text-center" id="contactanos"></h3>
+        <div class="col-lg-4">
+            <h5 class="text-center">Correo Electronico <i class="bi bi-envelope-at"></i></h5>
+            <h6 class="text-center">mauricioelre12@gmail.com</h6>
+        </div>
+        <div class="col-lg-4">
+            <h5 class="text-center">Todos Los Derechos Reservados &copy; para Gabriel Luna</h5>
+        </div>
+        <div class="col-lg-4">
+            <h5 class="text-center">Nuestras Redes Sociales</h5>
+            <div class="d-flex justify-content-around">
+                <p>Gabriel Aaron <i class="bi bi-facebook"></i></p>
+                <p>gaab_tggr <i class="bi bi-instagram"></i></p>
+                <p>GG12 <i class="bi bi-youtube"></i></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

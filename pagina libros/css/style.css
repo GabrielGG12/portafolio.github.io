@@ -1,0 +1,31 @@
+header{
+    background: url(../imagenes/descarga.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 85vh;
+    opacity: 1.0;
+}
+.imagen-grande {
+    width: 80%;
+    height: 100%;
+}
+.texto{
+    font-size: 14px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    font-size: 28px;
+}
+p{
+    font-size: 14px;
+}
+.imagen{
+     width: 50%;
+     height: 50%;
+
+}

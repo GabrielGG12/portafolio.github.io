@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:Tahoma;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+#logo img{
+    width: 150px;
+    float: left;
+}
+.botonera{
+    float: right;
+}
+.botonera ul{
+    display: flex;
+    list-style: none;
+}
+.botonera a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+.banner{
+    position: relative;
+    background: url(../img/banner.gif);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+}
+.cont-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.boton{
+    background: black;
+    color: white;
+    padding:10px 15px;
+    border: 0 none;
+}
+main{
+    width: 80%;
+    margin:20px auto;
+}
+main h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.img-responsive{
+    width: 450px;
+    max-width: 100%;
+    display: block;
+    margin:10px auto;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+}

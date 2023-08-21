@@ -1,0 +1,32 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+p{
+    font-size: 18px;
+
+}
+.p1{
+    font-size: 20px;
+    
+}
+h2{
+    color: blue;
+}
+h3{
+    color: green;
+}
+h5{
+    font-size: 26px;
+}
+.a1{
+    font-size: 24px;
+    font-weight: bold;
+}
+h4{
+    font-size: 18px;
+    color: rgb(6, 143, 241);
+}
+.a{
+    font-size: 24px;
+    outline: none;
+}

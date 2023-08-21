@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Tahoma;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background: rgb(88, 120, 207);
+    /* Header Fijo */
+    position: fixed;
+    z-index: 100000000;
+    top: 0;
+    left: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    color: white;
+    float: left;
+    margin: 10px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 70px;
+    padding: 20px;
+}
+nav a:hover{
+    background: darkgray;
+}
+/* Estilos del Banner */
+.banner{
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+.cont-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+/* Estilos del Main */
+main{
+    width: 80%;
+    margin: 20px auto;
+}
+main h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.img-responsive{
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+    max-width: 100%;
+}
+/* Estilos para el section */
+section{
+    width: 80%;
+    margin: auto;
+    /* Estilos Flexbox */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    width: 350px;
+    margin-bottom: 10px;
+}
+article h3{
+    text-align: center;
+}
+.fondo-asides{
+    margin: 20px 0px;
+}
+.text-aside{
+    color: purple;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.asides{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+aside{
+    width: 300px;
+    margin-bottom: 10px;
+}
+aside h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.fondo-pets{
+    background: rgb(224, 194, 191);
+    padding: 20px 0px;
+}
+.text-pets{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.pets{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pet{
+    width: 250px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.img-pet{
+    width: 250px;
+    height: 210px;
+    border-radius: 50%;
+    border: 5px solid gray;
+}
+.fondo-contactos{
+    margin: 20px 0px;
+}
+.text-contactos{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contactos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact{
+    width: 350px;
+    margin-bottom: 10px;
+}
+.contact h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact img{
+    width: 100%;
+}
+.listas li{
+    list-style-image: url(../img/vineta.png);
+    font-size: 18px;
+    line-height: 30px;
+}
+footer{
+    background: black;
+    padding: 20px 0px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}

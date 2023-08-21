@@ -1,0 +1,11 @@
+#subir{
+    display: none;
+    font-size: 32px;
+    position: fixed;
+    z-index: 100000;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin: 20px;
+}

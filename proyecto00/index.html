@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spa CAOOH</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/subir.css">
+    <!-- CDN DE ICONOS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div id="preloader">
+        <img src="img/preloader.gif" alt="">
+    </div>
+    <script>
+        
+    </script>
+    <div id="inicio"></div>
+    <header id="header">
+        <div class="container">
+            <div id="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <!-- MENU HAMBURGUESA -->
+            <div class="menu" id="menu" onclick="llamar()">
+            <label class="bi bi-list" id="menu"></label>
+            </div>
+            <!-- FIN DEL MENU HAMBURGUESA -->
+            <script>
+                
+            </script>
+            <nav class="botonera" id="botonera">
+                <ul>
+                    <li><a href="#inicio" id="active">INICIO</a></li>
+                    <li><a href="#nosotros">NOSOTROS</a></li>
+                    <li><a href="#galeria">GALERIA</a></li>
+                    <li><a href="#contactos">CONTACTOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+    <div class="overlay">
+        <div class="cont-banner">
+            <h2>SPA CAOH</h2>
+            <p>Ven y Relajate con Nosotros</p>
+            <button class="boton" onclick="alert('Gracias por Suscribirse')">Suscribirse</button>
+        </div>
+    </div>
+    </div>
+
+    <!-- Boton Subir -->
+    <a class="bi bi-arrow-up-short" id="subir" href="#inicio"></a>
+    <script>
+        
+    </script>
+
+    <main id="nosotros">
+        <h3>Nosotros</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolorem at quasi quia esse nisi repudiandae tenetur fuga mollitia exercitationem pariatur similique, a nam animi magnam perspiciatis minima ex fugit!
+        Officiis quia omnis eos qui velit ab. Molestias placeat nobis explicabo magnam quas aliquam quaerat architecto, amet rem excepturi enim. Natus eaque nulla numquam iusto ipsam unde repellat dicta assumenda.
+        Placeat, dignissimos veniam! Deserunt veniam doloremque libero possimus officia, rem voluptas aliquam facere dolore vel voluptatibus est ipsa quidem laborum sit recusandae sed iste voluptate nam aut? Cupiditate, eaque vero.</p>
+            <img src="img/spa01.jpg" alt="" class="img-responsive"  id="imagen" onmouseover="src='img/spa01.jpg'" onmouseout="src='img/spa00.jpg'"> 
+    </main>
+    <section>
+        <article>
+            <h2>Nuestra Galeria</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam deleniti eius eum sapiente, temporibus quod quae veritatis repellat quos quidem natus at exercitationem vitae ipsum enim pariatur illo? Repellendus, quas.
+            Voluptates asperiores, officiis minima, temporibus cum distinctio quae accusamus blanditiis soluta quasi quam laudantium amet laboriosam mollitia pariatur qui reiciendis tempora totam ad iure vitae sint. Libero sint nisi quam.</p>
+        </article>
+        <article>
+            <button onclick="atras()"><<</button>
+            <img src="img/spa00.jpg" alt="" id="img" width="450px">
+            <button onclick="adelante()">>></button>
+        </article>
+    </section>
+    <section>
+        <article>
+        </article>
+        <article>
+            <h2>Dejanos Tu Mensaje</h2>
+            <form action="envio.php" method="POST">
+                <p>Apellidos y Nombres</p>
+                <input type="text" name="nombres" id="" required>
+                <p>Correo Electronico</p>
+                <input type="text" name="correo" id="" required>
+                <p>Celular</p>
+                <input type="text" name="celular" id="" required maxlength="9">
+                <br>
+                <p>Comentarios</p>
+                <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </article>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
